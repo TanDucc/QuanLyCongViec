@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="nav_text_color">#000000</color> <!-- Thay bằng màu mong muốn -->
+    <color name="nav_icon_color">#FF6200EE</color> <!-- Màu tùy chỉnh -->
+    <color name="primary">#4285F4</color> <!-- Màu xanh dương -->
+    <color name="gray">#B0B0B0</color> <!-- Màu xám -->
+    <color name="purple_500">#6200EE</color>
+    <color name="green">#4CAF50</color>
+    <color name="black">#000000</color>
+
+
+</resources>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Chọn danh mục -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn danh mục"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Thêm danh mục mới -->
+    <EditText
+        android:id="@+id/et_new_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên danh mục mới"
+        android:visibility="gone"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btn_add_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm danh mục"
+        android:layout_gravity="end"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Tên nhiệm vụ -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên nhiệm vụ"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_task_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên nhiệm vụ"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Thêm nhiệm vụ phụ -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm nhiệm vụ phụ"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_sub_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập nhiệm vụ phụ"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btn_add_sub_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm"
+        android:layout_gravity="end"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Làm cho nó thường xuyên -->
+    <CheckBox
+        android:id="@+id/cb_recurring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Làm cho nó thường xuyên" />
+
+    <Spinner
+        android:id="@+id/spinner_recurrence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+    <!-- Ngày hoàn thành -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngày hoàn thành"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_set_due_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn ngày"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Vô thời hạn -->
+    <CheckBox
+        android:id="@+id/cb_no_deadline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vô thời hạn" />
+
+    <!-- Thời gian hoàn thành -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thời gian hoàn thành"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_set_due_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn giờ"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Nhắc nhở -->
+    <CheckBox
+        android:id="@+id/cb_reminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhắc nhở nhiệm vụ" />
+
+    <!-- Lưu ý -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lưu ý"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Thêm lưu ý"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Nút xác nhận -->
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="✓"
+        android:layout_gravity="end"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/white" />
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <!-- Chủ đề màn hình Splash -->
+    <style name="Theme.SplashScreen" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+</resources>

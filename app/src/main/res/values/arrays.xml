@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="priority_levels">
+        <item>Cao</item>
+        <item>Trung bình</item>
+        <item>Thấp</item>
+    </string-array>
+
+    <string-array name="notification_types">
+        <item>Không thông báo</item>
+        <item>Hàng ngày</item>
+        <item>Theo ngày trong tuần</item>
+    </string-array>
+</resources>

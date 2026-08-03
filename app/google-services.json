@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "993083869352",
+    "firebase_url": "https://nhom20-66dc1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "nhom20-66dc1",
+    "storage_bucket": "nhom20-66dc1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993083869352:android:44badab085285436839a9d",
+        "android_client_info": {
+          "package_name": "com.example.nhom20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993083869352-fek3tuf3nnhd12v7fc7r9tsic73n3o97.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nhom20",
+            "certificate_hash": "079c86d37f4f50fa3224c375b53fed6473672f21"
+          }
+        },
+        {
+          "client_id": "993083869352-8fgvlc8oef5b30ur62q9kk2lde4018lg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkNE8GFmo2-rbDs0usJifDelCa9AEnSps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993083869352-8fgvlc8oef5b30ur62q9kk2lde4018lg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tiêu đề công việc" />
+
+    <EditText
+        android:id="@+id/descriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mô tả" />
+
+    <EditText
+        android:id="@+id/dueDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hạn hoàn thành"
+        android:inputType="none"
+        android:focusable="false" />
+
+    <Spinner
+        android:id="@+id/prioritySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/priority_levels" />
+
+    <CheckBox
+        android:id="@+id/reminderCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bật lời nhắc trước hạn" />
+
+    <!-- Tùy chọn thông báo -->
+    <Spinner
+        android:id="@+id/notificationTypeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/notification_types" />
+
+    <!-- Thời gian thông báo -->
+    <LinearLayout
+        android:id="@+id/notificationTimeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thời gian thông báo: " />
+        <EditText
+            android:id="@+id/notificationTimeEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="none"
+            android:focusable="false"
+            android:hint="Chọn giờ" />
+    </LinearLayout>
+
+    <!-- Các ngày trong tuần -->
+    <LinearLayout
+        android:id="@+id/notificationDaysLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chọn ngày trong tuần:" />
+        <CheckBox
+            android:id="@+id/dayMonday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thứ 2" />
+        <CheckBox
+            android:id="@+id/dayTuesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thứ 3" />
+        <CheckBox
+            android:id="@+id/dayWednesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thứ 4" />
+        <CheckBox
+            android:id="@+id/dayThursday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thứ 5" />
+        <CheckBox
+            android:id="@+id/dayFriday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thứ 6" />
+        <CheckBox
+            android:id="@+id/daySaturday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thứ 7" />
+        <CheckBox
+            android:id="@+id/daySunday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chủ Nhật" />
+    </LinearLayout>
+</LinearLayout>

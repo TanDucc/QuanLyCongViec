@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_filter"
+        android:title="Lọc"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/filter_status"
+                android:title="Theo trạng thái" />
+            <item
+                android:id="@+id/filter_priority"
+                android:title="Theo ưu tiên" />
+        </menu>
+    </item>
+</menu>
